@@ -80,35 +80,35 @@ export function getMessageByErrorCode(errorCode: ErrorCode): string {
 
   switch (errorCode) {
     case 'bad_request:api':
-      return "The request couldn't be processed. Please check your input and try again.";
+      return "Essa requisição não pode ser processada. Por favor, verifique os seus dados e tente novamente.";
 
     case 'unauthorized:auth':
-      return 'You need to sign in before continuing.';
+      return 'Você precisa logar para continuar.';
     case 'forbidden:auth':
-      return 'Your account does not have access to this feature.';
+      return 'Sua conta não tem acesso a essa melhoria.';
 
     case 'rate_limit:chat':
-      return 'You have exceeded your maximum number of messages for the day. Please try again later.';
+      return 'Você chegou ao limite de mensagens por hoje. Tente novamente mais tarde.';
     case 'not_found:chat':
-      return 'The requested chat was not found. Please check the chat ID and try again.';
+      return 'A conversa solicitada não foi encontrada. Por favor, verifique e tente novamente.';
     case 'forbidden:chat':
-      return 'This chat belongs to another user. Please check the chat ID and try again.';
+      return 'Esse chat é de outro usuário. Por favor, verifique e tente novamente.';
     case 'unauthorized:chat':
-      return 'You need to sign in to view this chat. Please sign in and try again.';
+      return 'Você precisa logar para ver esse chat. Por favor, logue e tente novamente.';
     case 'offline:chat':
-      return "We're having trouble sending your message. Please check your internet connection and try again.";
+      return "Estamos tendo um problema para enviar a sua mensagem. Por favor, verifique a sua conexão tente novamente mais tarde.";
 
     case 'not_found:document':
-      return 'The requested document was not found. Please check the document ID and try again.';
+      return 'Esse documento não foi encontrado. Por favor, verifique e tente novamente.';
     case 'forbidden:document':
-      return 'This document belongs to another user. Please check the document ID and try again.';
+      return 'Esse documento é de outro usuário. Por favor, verifique e tente novamente.';
     case 'unauthorized:document':
-      return 'You need to sign in to view this document. Please sign in and try again.';
+      return 'Voce precisa logar para ver esse documento. Por favor, logue e tente novamente.';
     case 'bad_request:document':
-      return 'The request to create or update the document was invalid. Please check your input and try again.';
+      return 'Essa solicitacao nao pode ser processada. Por favor, verifique os seus dados e tente novamente.';
 
     default:
-      return 'Something went wrong. Please try again later.';
+      return 'Ocorreu um erro desconhecido, por favor, tente novamente mais tarde.';
   }
 }
 

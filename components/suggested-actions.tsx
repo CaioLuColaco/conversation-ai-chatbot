@@ -19,24 +19,24 @@ function PureSuggestedActions({
 }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'Possuo alguns problemas em casa',
+      label: 'para desabafar sobre a família',
+      action: 'Tive um problema em casa e preciso conversar sobre isso.',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Recebi um não',
+      label: `como lidar com a rejeição?`,
+      action: `Estou triste pois recebi um não de algo que eu queria muito. Preciso de ajuda para lidar com isso.`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'A vida não faz mais sentido',
+      label: `penso em desistir de tudo`,
+      action: `Sinto que a vida não faz mais sentido e estou pensando em desistir de tudo. Preciso de ajuda para lidar com isso.`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Não tenho vontade de fazer nada',
+      label: 'estou sem motivação',
+      action: 'Estou sem motivação para fazer qualquer coisa e preciso de ajuda para lidar com isso.',
     },
   ];
 

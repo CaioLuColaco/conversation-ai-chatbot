@@ -21,7 +21,7 @@ export function AuthForm({
           htmlFor="email"
           className="text-zinc-600 font-normal dark:text-zinc-400"
         >
-          Email Address
+          Email
         </Label>
 
         <Input
@@ -42,7 +42,7 @@ export function AuthForm({
           htmlFor="password"
           className="text-zinc-600 font-normal dark:text-zinc-400"
         >
-          Password
+          Senha
         </Label>
 
         <Input
